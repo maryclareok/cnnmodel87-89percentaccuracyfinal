@@ -14,6 +14,8 @@
 
 7. **Train the model**: The model is trained using the `fit` method, which trains the model for a fixed number of epochs (iterations on a dataset). The training data is supplied by the `train_generator`, and the validation data is supplied by the `validation_generator`.
 
+8. dataset:https://drive.google.com/drive/folders/1yPEZSt0Sc6AycAlnAfRysaj2XL1vb23x?usp=sharing
+
 This code is a typical example of how to build and train a convolutional neural network for image classification using Keras and TensorFlow. The model takes as input images of size 64x64 and outputs a probability distribution over the four classes: 'fire', 'fire and smoke', 'neither', and 'smoke'. The class with the highest probability is the model's prediction for the input image. 
 
 Please note that the exact details of how the code works might vary depending on the version of Keras or TensorFlow you are using. Always refer to the official documentation for the most accurate information.
